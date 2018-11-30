@@ -18,7 +18,7 @@ namespace Farma
         {
             Configuration = configuration;
         }
-        //xD
+        //xD//xD
 
         public IConfiguration Configuration { get; }
 
