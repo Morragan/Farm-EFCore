@@ -7,8 +7,12 @@ namespace Farma.Models
 {
     public class Worker //pracownik
     {
+        [Key]
         public int      Id                  { get; set; }
+
+        [ForeignKey("Farm")]
         public int      FarmId              { get; set; } //id_farmy
+
         public string   FirstName           { get; set; }
         public string   LastName            { get; set; } //nazwisko z imieniem
         public string   Position            { get; set; } //stanowisko
