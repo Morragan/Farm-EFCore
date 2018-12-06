@@ -12,6 +12,5 @@ namespace Farma.Models
         public int    GrainId               { get; set; } //id_zboze
 
         public string SpeciesName           { get; set; } //nazwa_gatunek
-        public float  AvarageMonthMilkAmout { get; set; } //avg_mleko
     }
 }
