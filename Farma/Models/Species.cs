@@ -10,6 +10,7 @@ namespace Farma.Models
 
         [ForeignKey("Grain")]
         public int    GrainId               { get; set; } //id_zboze
+        public Grain  Grain                 { get; set; }
 
         public string SpeciesName           { get; set; } //nazwa_gatunek
     }

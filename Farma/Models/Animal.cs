@@ -11,9 +11,11 @@ namespace Farma.Models
 
         [ForeignKey("Species")]
         public int      SpeciesId        { get; set; } //id_gatunek
+        public Species Species           { get; set; }
 
         [ForeignKey("Farm")]
         public int      FarmId           { get; set; } //id_farmy
+        public Farm     Farm             { get; set; }
 
         public DateTime BirthDate        { get; set; } //tutaj problemo
         public bool     Sex              { get; set; } //plec
