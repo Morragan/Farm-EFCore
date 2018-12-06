@@ -14,6 +14,7 @@ namespace Farma.Models
 
         [ForeignKey("Farm")]
         public int      FarmId              { get; set; } //id_farmy
+        public Farm     Farm                { get; set; }
 
         public string   FirstName           { get; set; }
         public string   LastName            { get; set; } //nazwisko z imieniem

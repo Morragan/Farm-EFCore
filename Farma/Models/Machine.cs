@@ -14,6 +14,7 @@ namespace Farma.Models
 
         [ForeignKey("Farm")]
         public int      FarmId                 { get; set; }
+        public Farm     Farm                   { get; set; }
 
         public int      Kind                   { get; set; } //rodzaj
         public DateTime ServiceDate            { get; set; } //data_serwisu
